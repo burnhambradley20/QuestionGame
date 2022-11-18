@@ -1,0 +1,100 @@
+header {
+text-align: center;
+font-size:60px;
+color: whitesmoke;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+border: dotted 15px yellow;
+background-color: blue;
+box-shadow: 100px 200px;
+border-radius: 45% ;
+}
+
+main {
+background-color: rgb(35, 35, 35);
+margin: 10px;}
+
+.start-box {display: flex;
+align-items: center;
+justify-content: center;}
+
+.start-button {
+text-align: center;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+color: whitesmoke;
+background-color: blue;
+padding: 15px 30px;
+margin: 10px;
+margin-right: 45px;
+border: 7px yellow dotted;
+cursor: pointer;}
+
+.start-button:hover {
+    background-color: rgb(62, 62, 255);
+}
+
+
+    
+.reset-button {
+text-align: center;
+font-size: 30px;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+color: whitesmoke;
+background-color: blue;
+padding: 15px 30px;
+margin: 10px;
+border: 7px yellow dotted;
+cursor: pointer;}
+
+.reset-button:hover{
+    background-color: rgb(62, 62, 255);
+}
+        
+.cardresults {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.win {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.lose {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.questionbox {
+    font-size: 40px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.questionbuttons {
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: blue;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 7px yellow dotted;
+    cursor: pointer;}
+
+.questionbuttons:hover {
+    background-color: rgb(62, 62, 255);
+}
+
+.timeremaining {
+    font-size: 25px;
+}
